@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def index(request):
+def index(requests):
     return HttpResponse('Главная страница')
 
 def group_posts(requests, slug):
